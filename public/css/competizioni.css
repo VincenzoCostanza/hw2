@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    color:rgb(37, 33, 33);
+    background-color:rgb(32, 24, 24);
+}
+header {
+    background-image: url('../images/calcetto.jpg');    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: left; 
+    background-color: rgba(0,0,0,.3);
+    height:400px;
+    position:relative;
+}
+header h1,footer strong{
+    font-family:'Alfa Slab One', Helvetica;
+    letter-spacing:1px;
+    font-weight:normal;
+    text-align: center;
+}
+
+header h1{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+header h1 strong{
+    font-size: 50px;
+}
+
+header h1 em{
+    font-size: 20px;
+}
+.imm-h1 .titolo{
+    color:darkgrey;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+nav a{
+    position:absolute;
+    top:20px;
+    right:5px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin:2px;
+    padding:5px 10px;
+    background-color: gray;
+    font-size: 25px;
+    color:black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border:3px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+section{ 
+    margin-bottom: 100px;
+}
+#flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flex-cont .blocco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:15px 6px;
+    height:250px;
+    width:250px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(131, 49, 63);
+    padding: 10px 18px ;
+}
+
+#flex-cont .blocco .coppa{
+    margin-bottom: 5px;
+    width:90%;
+}
+.prefe .compe{
+    color:darkgrey;
+    font-size: 20px;
+    
+}
+
+.blocco_prefe{
+    padding:5px;
+    margin:5px;
+    height:200px;
+    width:200px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(131, 49, 63) ;
+}
+
+.dett{
+    padding:10px 5px;
+    border:1px solid black; 
+    font-size: 15px;
+    background-color: darkgrey;
+    color:black;
+    cursor:pointer;
+}
+
+.dett:hover{
+    border:2px solid green;
+    border-radius: 2px;
+}
+
+#flex-cont p{
+    margin:5px;
+    margin-bottom: 5px;
+    width:80%;
+    height:20%;
+    font-size: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+
+.immagine_cuore{
+    width:30px;
+    margin:10px;
+    height:30px;
+    border:2px solid black;
+}
+
+.immagine_cuore:hover{
+    border:2px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.immagine_cuores{
+    width:30px;
+    margin:10px;
+    height:30px;
+    border:2px solid black;
+}
+
+.immagine_cuores:hover{
+    border:2px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.prefe #flex-cont,.contenitore{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nascondi{
+    display:none;
+}
+
+
+.altezza{
+    height:50%;
+}
+.altezza_1{
+    height:40%;
+    
+}
+
+.imm-h1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;     
+    margin-top: 0px;  
+    margin-bottom:5px;
+    width: 90%;
+}
+
+.coppa:hover{
+    border:2px solid black;
+    border-radius: 2px;
+}
+#x{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
